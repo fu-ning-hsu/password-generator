@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title1">Generate a</h1>
+            <h1 class="title2">random password</h1>
+            <p class="subtitle">Never use an insecure password again.</p>
+            <button 
+                class="generate-btn" 
+                onclick="generatePasswordArray()">Generate passwords</button>
+            <hr>
+            <div class="flex-container">
+                <p class="password" id="password1-el"></p>
+                <p class="password" id="password2-el"></p>
+            </div>
+        </div>
+    
+        <script src="index.js"></script>
+    </body>
+</html>
